@@ -57,6 +57,9 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Catatan Kuliah'),
+        // Memaksa AppBar mengikuti warna utama tema (Ungu)
+        backgroundColor: Theme.of(context).colorScheme.primary,
+        foregroundColor: const Color.fromARGB(255, 255, 255, 255),
         actions: [
           IconButton(
             icon: const Icon(Icons.account_circle_outlined),
