@@ -55,9 +55,9 @@ class _AppProviderWrapperState extends State<AppProviderWrapper> {
 
   Student _student = const Student(
     name: 'Mahasiswa Amikom',
-    nim: '25.11.6541',
+    nim: '25.11.1234',
     programStudi: 'S1 Informatika',
-    email: 'n.rahmad@students.amikom.ac.id',
+    email: 'mahasiswa@students.amikom.ac.id',
   );
 
   @override

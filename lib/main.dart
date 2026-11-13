@@ -1,3 +1,4 @@
+
 import 'package:flutter/material.dart';
 import 'config/app_config.dart';
 import 'providers/app_provider.dart';
@@ -18,16 +19,17 @@ class MyApp extends StatelessWidget {
       child: MaterialApp(
         title: 'Profil Mahasiswa & Catatan Kuliah',
         debugShowCheckedModeBanner: false,
-        // Mengatur tema dengan warna ungu yang persis seperti gambar referensi
+
+        // Mengatur tema dengan warna biru
         theme: ThemeData(
           useMaterial3: true,
           colorScheme: ColorScheme.fromSeed(
-            seedColor: const Color(0xFF673AB7), // Ungu Material (Deep Purple)
-            primary: const Color(0xFF5E35B1),  // Warna ungu AppBar yang pekat
+            seedColor: const Color(0xFF2196F3), // Biru
+            primary: const Color(0xFF1976D2),   // Biru pekat
           ),
           appBarTheme: const AppBarTheme(
-            backgroundColor: Color(0xFF5E35B1), // Memaksa warna latar AppBar ungu
-            foregroundColor: Colors.white,      // Warna teks dan ikon di AppBar menjadi putih
+            backgroundColor: Color(0xFF1976D2), // Background AppBar biru
+            foregroundColor: Colors.white,      // Teks dan ikon putih
             centerTitle: false,
           ),
         ),
